@@ -1,1 +1,37 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/qNmwDDQV)
+# 📦 Cadastro de Produtos em Java
+
+Este projeto é uma aplicação desktop simples em **Java** com interface gráfica (Swing) que realiza o **CRUD de produtos** (Cadastrar, Listar, Atualizar, Remover).
+
+## 🧾 Funcionalidades
+
+- ✅ Cadastro de novos produtos
+- ✅ Atualização de produtos existentes
+- ✅ Remoção de produtos
+- ✅ Listagem de produtos em tabela
+- ✅ Validação para impedir produtos com código repetido
+- ✅ Persistência dos dados em arquivo `.dat` (serialização)
+
+## 🛠️ Tecnologias utilizadas
+
+- Java SE 8+
+- Swing (interface gráfica)
+- Serialização com `ObjectOutputStream` / `ObjectInputStream`
+
+## 🚀 Como executar
+
+1. Clone ou baixe o projeto
+2. Compile todos os arquivos `.java`
+3. Execute a classe `TelaProduto`
+
+No terminal:
+
+ ```bash
+ javac *.java
+ java TelaProduto
+ ```
+Ou, se estiver usando Eclipse/NetBeans, apenas execute o main da classe TelaProduto.
+
+## 👩‍💻 Autora
+
+Vanessa Sousa
+
